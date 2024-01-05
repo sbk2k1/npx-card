@@ -1,6 +1,6 @@
 {
   "name": "sbk2k1",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "How did a nitwit like me get so tasteful?",
   "exports": "./index.js",
   "bin": {
