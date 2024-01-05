@@ -25,7 +25,7 @@
     "wrap-ansi": "^7.0.0"
   },
   "bin": {
-    "sbk2k1": "./card.js"
+    "sbk2k1": "node card.js"
   },
   "devDependencies": {},
   "scripts": {
