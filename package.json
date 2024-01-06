@@ -1,6 +1,6 @@
 {
   "name": "sbk2k1",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "How did a nitwit like me get so tasteful?",
   "exports": "./index.js",
   "bin": {
@@ -8,9 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "node build.js",
-    "dev": "node ./bin/index.js",
+    "sbk2k1": "node ./bin/index.js",
     "lint": "standard"
   },
   "repository": {
