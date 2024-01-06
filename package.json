@@ -1,6 +1,6 @@
 {
   "name": "sbk2k1",
-  "version": "1.0.4",
+  "version": "1.0.11",
   "description": "How did a nitwit like me get so tasteful?",
   "exports": "./index.js",
   "bin": {
@@ -8,7 +8,9 @@
   },
   "type": "module",
   "scripts": {
-    "sbk2k1": "node ./bin/index.js",
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
     "lint": "standard"
   },
   "repository": {
